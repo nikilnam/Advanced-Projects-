@@ -21,10 +21,14 @@ def get_weather():
 
 # Create the main application window
 app = tk.Tk()
-app.geometry("1680x1050")
+app.geometry("920x964")
 
 #Define Image
-#bgsunny = tk.PhotoImage(file = "Sunny.png")
+bgsunny = tk.PhotoImage(file ="Pictures\Sunny.png")
+
+#Create Label
+my_label = tk.Label(app, image = bgsunny)
+my_label.place(x=0, y=0, relwidth=1, relheight=1)
 
 app.title("Weather App")
 
