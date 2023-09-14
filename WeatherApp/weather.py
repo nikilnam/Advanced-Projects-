@@ -89,6 +89,7 @@ def get_starting_weather(name_of_city):
     else:
         img = bgcloudy
     my_label_sunny.config(image= img)
+    
 
 def getforecast_data(name_of_city):
     city = name_of_city
